@@ -50,9 +50,9 @@ function App() {
        </div>
         
       </div>
-       <div className="profile  w-[90%]   m-auto  flex flex-col items-center md:w-[20%] md:ml-[50px] md:bg-[#f2f4f7] md:h-[100vh] md:m-0 md:pt-8  ">
+       <div className="profile  w-[90%]   m-auto pb-8 md:pb-0  flex flex-col items-center md:w-[20%] md:ml-[50px] md:bg-[#f2f4f7] md:h-[100vh] md:m-0 md:pt-8  ">
         
-        <div className='user w-[100%] my-2  flex flex-row space-x-4 md:px-2'>
+        <div className='user w-[100%] my-10 md:my-2  flex flex-row space-x-4 md:px-2'>
             <img className='h-[60px] rounded-[50%]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7rAXspe1a2jEJ0Ml5kaRrz0SUQsyJv2vHSFbzHXxeVw&s" alt="" />
             <div className='flex flex-col'>
             <span className='text-3xl font-serif'>Hi Mike</span>
@@ -128,7 +128,7 @@ function App() {
       <div className='graph w-[100%] px-4 '>
           <Graph/>
       </div>
-      <div className='invisible md:visible md: px-4 md:w-[100%]'>
+      <div className=' empty-div invisible w-[10px] h-[40px] md:visible md: px-4 md:w-[100%]'>
         
         <div className=' px-4 mb-4 flex flex-col w-[100%] justify-between'>
             <span className='text-[18px]  font-sans font-bold '>How do I compare to my peers</span>
@@ -136,19 +136,19 @@ function App() {
         </div>
         <div className='selector px-4 flex flex-row w-[100%] '>
           <div className='flex flex-col'>
-          <div className='flex flex-row pb-2 border-b'>
+          <div className='flex flex-row pb-0 border-b '>
               <span className='text-[15px] w-[45px] font-sans font-bold pt-2'>
                 Age: 
               </span>
               <SelectTab type="Under 30" />
           </div>
-          <div className='flex flex-row pb-2 border-b  '>
+          <div className='flex flex-row pb-0 border-b  '>
               <span className='text-[15px] w-[45px] font-sans font-bold pt-2'>
                 Salary: 
               </span>
               <SelectTab type="K20 - k30" />
           </div>
-          <div className='flex flex-row pb-2 border-b'>
+          <div className='flex flex-row pb-0 border-b'>
               <span className='text-[15px] w-[45px] font-sans font-bold pt-2'>
                 Gender: 
               </span>
