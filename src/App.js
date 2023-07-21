@@ -112,17 +112,17 @@ function App() {
               <div className='flex flex-col md:flex-row md:items-center md:space-x-1'>
                     <div className='h-[10px] bg-[#0800A3] w-[15px] rounded-md'></div>
                     <span className='text-[11px] font-sans font-medium text-gray-500'>Employer</span>
-                    <span className='font-bold font-mono text-xl text-black md:text-sm'>$73,500</span>
+                    <span className='font-bold font-mono text-lg text-black md:text-sm'>$73,500</span>
               </div>
               <div className='flex flex-col md:flex-row md:items-center md:space-x-1'>
                     <div className='h-[10px] bg-[#4935FF] w-[15px] rounded-md'></div>
-                    <span className='text-[11px] font-sans font-medium text-gray-500'>Employee</span>
-                    <span className='font-bold font-mono text-2xl text-black md:text-sm'>$52,500</span>
+                    <span className='text-[11px]  font-sans font-medium text-gray-500'>Employee</span>
+                    <span className='font-bold font-mono text-lg md:text-sm text-black md:text-sm'>$52,500</span>
               </div>
               <div className='flex flex-col md:flex-row  md:items-center md:space-x-1'>
               <div className='h-[10px] bg-[#85AFFF] w-[15px] rounded-md'></div>
                     <span className='text-[11px] font-sans font-medium text-gray-500'>Total Interest</span>
-                    <span className='font-bold font-mono text-2xl text-black md:text-sm'>$244,213</span>
+                    <span className='font-bold font-mono text-lg  text-black md:text-sm'>$244,213</span>
                 </div>
       </div>
       <div className='graph w-[100%] px-4 '>
