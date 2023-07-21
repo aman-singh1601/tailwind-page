@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className='body flex flex-col w-[100vw] md:flex-row md:h-fit '>
-      <div className="nav w-[100vw] fixed bottom-1  h-[20px] flex flex-row justify-evenly items-center md:left-0 md:flex-col md:top-0 md:h-[100%]  md:pb-0 md:mb-0 md:justify-between md:pl-1 md:w-fit ">
+      <div className="nav bg-white z-30 m-0 w-[100vw] fixed bottom-0 p-2  h-[40px] flex flex-row justify-evenly items-center md:left-0 md:flex-col md:top-0 md:h-[100%]  md:pb-0 md:mb-0 md:justify-between md:pl-1 md:w-fit ">
         <div className='invisible w-0 h-0 md:h-[80px] md:flex md:flex-col md:justify-around md:mt-2 md:w-fit md:visible'>
                 <img className='h-10' src='https://svgsilh.com/svg/2034617-3f51b5.svg'/>
                 <div className=' hover:shadow-lg duration-[250ms] rounded-sm  hover:bg-[#4935FF]'>
@@ -199,13 +199,13 @@ function App() {
               <SelectTab  type="Male" />
           </div>
           <div className='flex my-8 flex-row justify-between'>
-             <div className='w-[100px]'>
+             <div className='w-[80px]  md:w-[100px]'>
                 <CircularBar value={75}/>
              </div>
-             <div className='w-[100px]'>
+             <div className=' w-[80px] md:w-[100px]'>
                 <CircularBar value={56}/>
              </div>
-             <div className='w-[100px]'>
+             <div className='w-[80px]  md:w-[100px]'>
                 <CircularBar value={96}/>
              </div>
           </div>
