@@ -233,7 +233,7 @@ function App() {
              <span className='text-[15px]  font-sans font-bold'> Intreset Rate</span>
              <span className='text-[15px]  font-sans font-bold'>5% </span>
         </div>
-        <button className='w-[100%]  mb-2  bg-[#4935FF] text-white font-sans z-[100] font-semibold rounded-md m-auto text-xl py-4 items-center md:w-[90%]'>Update</button>
+        <button className='w-[100%]  mb-2 py-4 md:py-2 bg-[#4935FF] text-white font-sans z-[100] font-semibold rounded-md m-auto text-xl  items-center md:w-[90%]'>Update</button>
         </div>
       
       
