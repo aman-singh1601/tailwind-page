@@ -10,16 +10,12 @@ export const CircularBar = ({value}) => {
                text={`${value}%`}
                styles={buildStyles({
                 strokeLinecap: 'butt',
-                // text:{
-                //     fontWeight:'800',
-                //     fontSize:'40px', 
-                // },
                 textSize:'22px',
                 fontWeight:'600',
-                pathColor: `#099c09`,
+                pathColor: `#22D6AA`,
                 textColor: '#0c0d0c',
                 
-                trailColor: '#abdeab',
+                trailColor: '#E8FAF5',
                 backgroundColor: '#3e98c7',
               })}
     />
